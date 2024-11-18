@@ -1,0 +1,21 @@
+// SimpleStorage.aiken
+
+contract SimpleStorage {
+    // State variable to hold the stored value
+    let storedValue: Int
+
+    // Constructor to initialize the stored value
+    public fun new(initialValue: Int) {
+        storedValue = initialValue
+    }
+
+    // Function to set a new value
+    public fun set(value: Int) {
+        storedValue = value
+    }
+
+    // Function to get the current value
+    public fun get(): Int {
+        return storedValue
+    }
+}
