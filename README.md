@@ -1,0 +1,6 @@
+### Deployment v1.1.6 Result
+aptos CLI install
+...
+aptos account get --address addr1qxewzwlyjt4cpza8396hwx4xhw7m8wk9sa8l2fwfvzkzk4qeu4eysq0mc7dz7zq2mry57vznrf68xa5yef0t7t0nuynsxu9w06
+...
+run this replace to your address then the contract address deployed
